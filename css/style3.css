@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+:root{
+    --font-primary:"Baloo 2", serif;
+    --font-secundary:"Noto Sans",serif;
+    --font-action:"Mulish",serif;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+  
+    margin: 0;
+    min-width: 100vh;
+}
+.fundo{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  
+    background: linear-gradient(to right, #3c1053, #ad5389);
+    height: 100vh;
+    color: #fff;
+    
+}
+.piano{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.key{
+}
+.white.active {
+    background-color: #CCC;
+
+}
+.black.active {
+    background-color: #333;
+    
+}
+.white{
+    width: 100px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #333;
+}
+.black{
+    width: 60px;
+    height: 240px;
+    background-color: black;
+    margin-left: -30px;
+    margin-right: -30px;
+    z-index: 2;
+}
+.class-titulo{
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 3rem;
+    background-color:rgba(0, 0, 0, .8);
+    color: #fff;
+    font-size:1rem;
+    font-weight: lighter;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.titulo{
+    font-family: var(--font-primary);
+}

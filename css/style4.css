@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: o;
+}
+:root{
+    --font-primary:"Baloo 2", serif;
+    --font-secundary:"Noto Sans",serif;
+    --font-action:"Mulish",serif;
+}
+.fundo{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  
+    background: linear-gradient(to right, #3c1053, #ad5389);
+    height: 100vh;
+    color: #fff;
+    
+}
+.calculadora{
+    position: absolute;
+    background-color:rgba(0, 0,0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.calculadora h1{
+    font-family: var(--font-primary);
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff;
+    font-family: var(--font-action);
+    margin: 3px;
+}
+.btn:hover{
+    background-color: #000;
+}
+#ig{
+    height: 106px;
+}
+#zero{
+    width: 106px;
+}
+#resultado{
+    width: 220px;
+    height: 30px;
+    margin: 5px;
+    background-color: #fff;
+    font-size: 25px;
+    color: #000;
+    text-align: right;
+    font-family: var(--font-secundary);
+    padding: 5px;
+}
