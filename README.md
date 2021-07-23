@@ -2,7 +2,7 @@
 
 ##Tarefas
 
-As tarefas serão feitas no próprio github.
+
 
 
 
