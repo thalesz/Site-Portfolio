@@ -1,6 +1,6 @@
 # Portfólio
 
-##Tarefas
+##Descrição: Projeto Site-Portfólio voltado ao desenvolvimento web 
 
 
 
