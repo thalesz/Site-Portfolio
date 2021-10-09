@@ -4,5 +4,5 @@ O projeto consiste em um site com objetivo de aplicar os conhecimentos sobre HTM
 
 O site principal é disposto por: cabeçalho, conhecimentos, projetos, contato, orçamento e rodapé.
 
-O site conta com 3 abas paralelas de projeto que são: Calculadora, Piano e Lista *Todo*
+O site conta com 3 abas paralelas de projetos que são: Calculadora, Piano e Lista *Todo*
 
