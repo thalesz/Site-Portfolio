@@ -1,14 +1,7 @@
-# Portfólio
-
-##Descrição: Projeto Site-Portfólio voltado ao desenvolvimento web 
-
+# Conceito
+O projeto consiste em um site com objetivo de aplicar os conhecimentos sobre HTML5, CSS3 e javascript.
 
 
 
 
-##Icones
-:package: nova funcionalidade
-:up: atualização
-:beetle: correção de bug
-:checkered_flag: release 
 
